@@ -156,10 +156,21 @@ strong {
         margin: auto;
         color: @grey;
 
-        a {
-            color: @grey;
-        }
 
+
+    }
+
+    a {
+        color: @grey;
+        cursor: pointer;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+    &-pages {
+        text-align: left;
     }
 
     &-icons {
@@ -171,11 +182,6 @@ strong {
     }
 
     &-license {
-        display: inline-block;
-        color: @grey;
-        cursor: pointer;
-        &:hover {
-            color: white;
-        }
+        padding-bottom: 10px;
     }
 }
