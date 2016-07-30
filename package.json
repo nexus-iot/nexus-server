@@ -1,7 +1,7 @@
 {
     "name": "nexus-server",
     "version": "1.0.0",
-    "description": "Nexus.io server deployed on http://nexus.io",
+    "description": "Nexus.io server deployed on http://nexus-io.com",
     "main": "index.js",
     "scripts": {
         "postinstall": "node_modules/gulp/bin/gulp.js less",
@@ -10,14 +10,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ThibaultFriedrich/nexus-server.git"
+        "url": "git+https://github.com/nexus-iot/nexus-server.git"
     },
     "author": "Thibault Friedrich <tf@elqui.fr>",
     "license": "LPGL-3.0",
     "bugs": {
-        "url": "https://github.com/ThibaultFriedrich/nexus-server/issues"
+        "url": "https://github.com/nexus-iot/nexus-server/issues"
     },
-    "homepage": "https://github.com/ThibaultFriedrich/nexus-server#readme",
+    "homepage": "https://github.com/nexus-iot/nexus-server#readme",
     "dependencies": {
         "express": "^4.14.0",
         "gulp": "^3.9.1",
