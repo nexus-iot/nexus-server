@@ -1,0 +1,129 @@
+strong {
+  color: #2185D0 !important;
+}
+.github {
+  display: inline-block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+}
+.github:hover {
+  color: #2185D0;
+  cursor: pointer;
+}
+.header {
+  padding: 10px;
+}
+.header-home {
+  font-size: 40px;
+  color: black;
+}
+.header-home:hover {
+  color: #2185D0;
+}
+.welcome {
+  padding: 200px 0px;
+  background-color: black;
+  background-image: url('../img/earth-2.png');
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: right;
+}
+.welcome-presentation {
+  display: inline-block;
+  text-align: left;
+  width: 50%;
+}
+.welcome-title {
+  text-align: left;
+  font-size: 3em;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+}
+.welcome-vp {
+  font-size: 2em;
+  color: #2185D0;
+  padding-bottom: 25px;
+}
+.exec-summary {
+  text-align: center;
+  font-size: 1.4em;
+  padding: 150px 0px;
+  line-height: 1.3em;
+  max-width: 800px;
+  margin: auto;
+}
+.exec-summary-install {
+  padding-bottom: 30px;
+}
+.exec-summary-install code {
+  font-size: 0.9em;
+}
+.feature {
+  margin-bottom: 100px;
+}
+.feature .ui.icon.image {
+  height: 70px!important;
+}
+.api-key-explanation {
+  font-size: 1.2em;
+}
+.api-key-enter {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+.api-key-button {
+  display: inline-block;
+  margin-left: 10px;
+}
+.public-ip {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.devices {
+  max-width: 500px;
+  margin: auto;
+}
+.devices .segment + .segment {
+  margin-top: 20px;
+}
+.devices-no {
+  text-align: center;
+  color: #aaaaaa;
+}
+.getting-started-icon {
+  height: 80px!important;
+}
+.footer {
+  padding: 70px 0px;
+  background-color: black;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+  margin-top: 50px;
+}
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-content a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-icons {
+  text-align: right;
+}
+.footer-nexus {
+  padding: 10px;
+}
+.footer-license {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+.footer-license:hover {
+  color: white;
+}

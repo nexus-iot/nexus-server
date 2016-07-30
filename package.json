@@ -1,0 +1,30 @@
+{
+    "name": "nexus-server",
+    "version": "1.0.0",
+    "description": "Nexus.io server deployed on http://nexus.io",
+    "main": "index.js",
+    "scripts": {
+        "postinstall": "node_modules/gulp/bin/gulp less",
+        "start": "node src/app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ThibaultFriedrich/nexus-server.git"
+    },
+    "author": "Thibault Friedrich <tf@elqui.fr>",
+    "license": "LPGL-3.0",
+    "bugs": {
+        "url": "https://github.com/ThibaultFriedrich/nexus-server/issues"
+    },
+    "homepage": "https://github.com/ThibaultFriedrich/nexus-server#readme",
+    "dependencies": {
+        "express": "^4.14.0",
+        "gulp": "^3.9.1",
+        "gulp-less": "^3.1.0",
+        "gulp-nodemon": "^2.1.0",
+        "gulp-watch": "^4.3.9",
+        "nexus.io": "^0.3.1",
+        "swig": "^1.4.2"
+    }
+}
