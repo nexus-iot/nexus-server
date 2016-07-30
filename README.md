@@ -1,6 +1,6 @@
 # nexus-server
 
-This is using server of module `nexus.io` and is deployed on http://nexus.io.
+This is using server of module `nexus.io` and is deployed on http://nexus-io.com.
 
 If you want to start our own standalone nexus server :
 
