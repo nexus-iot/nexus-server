@@ -23,3 +23,11 @@ app
 http.listen(process.env.PORT || 8080, process.env.YOUR_HOST || '0.0.0.0', function (){
     console.log('listening on http://localhost:'+http.address().port);
 });
+
+server.on('device-registered', function (device) {
+    console.log('device registered ', device);
+});
+
+server.on('device-unregistered', function () {
+    console.log('device unregistered');
+});
